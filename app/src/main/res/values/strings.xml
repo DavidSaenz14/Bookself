@@ -1,19 +1,20 @@
 <resources>
-    <string name="app_name">My Application1234</string>
+    <string name="app_name">Albums</string>
 
     <string name="back_arrow_content_descr">Go back</string>
     <string name="loading_image_content_descr">Loading</string>
     <string name="failed_to_load_msg">Failed to load!!!</string>
     <string name="no_records_found_msg">Nothing found. Try a different search.</string>
-    <string name="book_details"><b>Book</b> $s</string>
+    <string name="album_details"><b>Album</b> %s</string>
     <string name="search_placeholder">Search for …</string>
 
-    <string name="book_title"><i>Title:</i> %s</string>
-    <string name="book_subtitle"><u>Subtitle:</u> %s</string>
-    <string name="book_authors"><b>Authors:</b> %s</string>
-    <string name="book_price"><b>Price:</b> %s</string>
+    <string name="album_title"><i>Title:</i> %s</string>
+    <string name="album_artist"><u>Artist:</u> %s</string>
+    <string name="album_genres"><b>Genres:</b> %s</string>
+    <string name="album_price"><b>Price:</b> %s</string>
     <string name="btn_search">Buscar</string>
     <string name="btn_favorite">Favorito</string>
-    <string name="NoFavoriteBooksText">No Favorite Books.</string>
-    <string name="btn_try_again">Try again</string>
+    <string name="NoFavoriteAlbumsText">No Favorite Albums.</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="album_description">Esta es la descripcion de los albumes</string>
 </resources>
