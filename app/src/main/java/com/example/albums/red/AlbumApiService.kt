@@ -1,4 +1,4 @@
-package com.example.albums.network
+package com.example.albums.red
 
 import com.example.albums.model.Album
 
@@ -8,9 +8,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-/**
- * A public interface that exposes the [getBooks] method
- */
+
 interface AlbumApiService {
 
     companion object {

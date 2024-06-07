@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.albums.AppDestinations
-import com.example.bookshelf.BookshelfNavHost
+import com.example.albums.BookshelfNavHost
 import com.example.albums.ui.pantallas.componentes.MyTopAppBar
 
 @OptIn(ExperimentalMaterial3Api::class)

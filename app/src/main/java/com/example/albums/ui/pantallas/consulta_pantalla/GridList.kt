@@ -112,10 +112,6 @@ private fun GridItem(
                         text = stringResource(R.string.album_description, album.albumInfo.description),
                         style = MaterialTheme.typography.bodyMedium
                     )
-                    Text(
-                        text = stringResource(R.string.album_price, album.saleInfo.getPrice2),
-                        style = MaterialTheme.typography.bodyLarge
-                    )
                 }
             }
         }

@@ -1,4 +1,4 @@
-package com.example.bookshelf
+package com.example.albums
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -6,7 +6,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.albums.AppDestinations
 import com.example.albums.ui.pantallas.pantalla_detalle.DetailScreen
 import com.example.albums.ui.pantallas.consulta_pantalla.QueryViewModel
 import com.example.albums.ui.pantallas.pantalla_menu.MenuScreen

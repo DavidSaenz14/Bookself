@@ -3,7 +3,7 @@ package com.example.albums.data
 
 import com.example.albums.model.Album
 
-import com.example.albums.network.AlbumApiService
+import com.example.albums.red.AlbumApiService
 
 
 class DefaultAlbumRepository(

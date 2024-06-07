@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.albums.ui.AlbumApp
-
 import com.example.bookshelf.ui.theme.BookshelfTheme
 
 

@@ -42,7 +42,7 @@ fun DetailScreen(
             )
         }
         is DetailsUiState.Success -> {
-            BookDetails(uiStateDet.bookItem)
+            BookDetails(uiStateDet.albumItem)
         }
     }
 
@@ -82,22 +82,6 @@ fun BookDetails(album: Album) {
                 text = stringResource(R.string.album_title, album.albumInfo.title),
                 style = MaterialTheme.typography.titleMedium
             )
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = stringResource(R.string.album_price, album.saleInfo.getPrice2),
-                style = MaterialTheme.typography.titleMedium
-            )
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = "country: " + album.saleInfo.country,
-                style = MaterialTheme.typography.titleMedium
-            )
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = "listPrice: " + album.saleInfo.getPrice2,
-                style = MaterialTheme.typography.titleMedium
-            )
-
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = "description: " + album.albumInfo.description,
